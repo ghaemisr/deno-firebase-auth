@@ -3,14 +3,14 @@ This is a sample repo to showcase the Deno deploy issue we're facing with Fireba
 # Local dev
 To run the code, we need a valid Firebase service account key. You can use the `.env.template` file as a reference for the env variables required. 
 
-Run `deno task dev` to start the code. This starts a Hono server with a simple `GET /parse-token` endpoint which takes in a Firebase session cookie and validates and decodes it to find the user email. To learn more about Firebase session cookies checkout [this document](https://firebase.google.com/docs/auth/admin/manage-cookies).
+Run `deno task dev` to start the code. This starts a Hono server with a simple `GET /parse-token` endpoint which takes in a Firebase session cookie and validates and decodes it to find the user email. To learn more about Firebase session cookies check out [this document](https://firebase.google.com/docs/auth/admin/manage-cookies).
 
 Here is a sample curl command and the response:
 ```bash
 curl 'http://localhost:3000/parse-token' \
 --header 'Authorization: Bearer your-session-token'
 ```
-Sample resultL
+Sample result:
 ```bash
 {"email":"sara@fuelix.ai"}
 ```
