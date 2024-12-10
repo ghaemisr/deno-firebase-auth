@@ -1,0 +1,13 @@
+{
+    "tasks": {
+      "dev": {
+        "description": "Start development server",
+        "command": "deno run --watch --env-file --allow-net --allow-env --allow-read main.ts"
+      }
+    },
+    "imports": {
+        "@firebase-admin": "npm:firebase-admin",
+        "@hono": "jsr:@hono/hono@^4.6.12"
+    }
+  }
+  
