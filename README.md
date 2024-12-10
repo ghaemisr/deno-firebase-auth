@@ -1,6 +1,5 @@
 # Deno Firebase Auth
-This is a sample repo to showcase the Deno deploy issue we're facing with Firebase Auth. This code works perfectly fine on local but deployed to deno deploy, it throws an error. You can find more information below with screenshots of the issue. 
-
+This is a sample repo to showcase the Deno deploy issue we're facing with Firebase Auth. This code works perfectly fine on local but deployed to deno deploy, it throws an error. You can find more information below.
 # Local dev
 To run the code, we need a valid Firebase service account key. You can use the `.env.template` file as a reference for the env variables required. 
 
