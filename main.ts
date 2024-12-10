@@ -34,6 +34,7 @@ app.get("/parse-token", async (c: Context) => {
       );
     }
 
+    
     const token = authHeader.substring(7); // Remove "Bearer " prefix
 
     // Verify the token and decode it
